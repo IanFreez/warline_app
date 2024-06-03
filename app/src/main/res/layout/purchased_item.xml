@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:backgroundTint="@color/white"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tanggalTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal"
+            android:textColor="@color/dgray"/>
+        <TextView
+            android:id="@+id/dateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=": Date"
+            android:layout_marginLeft="90dp"
+            android:textColor="@color/dgray"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/productTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Produk"
+            android:textColor="@color/dgray"/>
+        <TextView
+            android:id="@+id/productTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=": Product Details"
+            android:layout_marginLeft="90dp"
+            android:textColor="@color/dgray"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/hargaTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harga"
+            android:textColor="@color/dgray"/>
+        <TextView
+            android:id="@+id/hargaTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=": Harga"
+            android:layout_marginLeft="90dp"
+            android:textColor="@color/dgray"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/countTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jumlah"
+            android:textColor="@color/dgray"/>
+        <TextView
+            android:id="@+id/countTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=": Jumlah"
+            android:layout_marginLeft="90dp"
+            android:textColor="@color/dgray"/>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
